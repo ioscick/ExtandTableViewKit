@@ -1,0 +1,28 @@
+{
+  "name": "ExtandTableViewKit",
+  "version": "0.1.0",
+  "summary": "A short description of ExtandTableViewKit.",
+  "description": "测试下静态库",
+  "homepage": "https://github.com/沈立平/ExtandTableViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "沈立平": "154986932@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/沈立平/ExtandTableViewKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ExtandTableViewKit/Classes/**/*",
+  "user_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  },
+  "pod_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  }
+}

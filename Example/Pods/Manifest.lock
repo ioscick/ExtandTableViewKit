@@ -1,0 +1,16 @@
+PODS:
+  - ExtandTableViewKit (0.1.0)
+
+DEPENDENCIES:
+  - ExtandTableViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  ExtandTableViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtandTableViewKit: d941b51e3ccb4ed86cc2a091b6b7d50152cd32ff
+
+PODFILE CHECKSUM: b967f4e485e656bbe7bfc5269f59d669c2966800
+
+COCOAPODS: 1.10.1

@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = '测试下静态库'
   s.homepage         = 'https://github.com/沈立平/ExtandTableViewKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -31,6 +28,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ExtandTableViewKit/Classes/**/*'
+  
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+  
+  s.pod_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
   
   # s.resource_bundles = {
   #   'ExtandTableViewKit' => ['ExtandTableViewKit/Assets/*.png']
